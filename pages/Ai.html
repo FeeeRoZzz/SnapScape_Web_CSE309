@@ -1,1 +1,32 @@
-AFTER FINAL :)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Background Suggestion</title>
+    <link rel="stylesheet" href="../css/ai.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>AI Background Suggestion</h1>
+        <div id="question-section">
+            <p id="question-text">What is the primary purpose of your photo?</p>
+            <div id="options">
+                <button class="option-btn" onclick="selectOption('Portrait')">Portrait</button>
+                <button class="option-btn" onclick="selectOption('Landscape')">Landscape</button>
+                <button class="option-btn" onclick="selectOption('Product')">Product</button>
+            </div>
+        </div>
+        <div id="result-section" class="hidden">
+            <h2>Suggested Background:</h2>
+            <p id="suggestion-text"></p>
+            <img id="suggestion-image" src="" alt="Suggested Background">
+            <button id="restart-btn" onclick="restart()">Try Again</button>
+        </div>
+    </div>
+    <script src="../js/ai.js"></script>
+</body>
+</html>
