@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "BD FLAG",
+        "photographer": "FEROZ MAHMUD",
+        "camera": "CANON M50",
+        "votes": 0,
+        "category": "portrait",
+        "image": "uploads\/photo_680f4bf9013a3.jpg",
+        "userId": 3
+    },
+    {
+        "id": 2,
+        "title": "BIRD",
+        "photographer": "RAKIB",
+        "camera": "IPHONE 13",
+        "votes": 0,
+        "category": "nature",
+        "image": "uploads\/photo_680f4c5a76264.jpg",
+        "userId": 3
+    },
+    {
+        "id": 3,
+        "title": "CAR",
+        "photographer": "ARHAM HOSSAIN",
+        "camera": "IPHONE 6S",
+        "votes": 1,
+        "category": "portrait",
+        "image": "uploads\/photo_68161584031fc.JPG",
+        "userId": 5
+    }
+]
